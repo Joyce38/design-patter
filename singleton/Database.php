@@ -13,8 +13,8 @@ class Database {
     private ?PDO $connection = null;
     
     // --- Database Configuration (UPDATE THESE VALUES) ---
-    private string $host = 'localhost';
     private string $db_name = 'test_db'; 
+    private string $host = 'localhost';
     private string $username = 'root';     
     private string $password = 'your_password'; // <<< IMPORTANT: Change this
 
